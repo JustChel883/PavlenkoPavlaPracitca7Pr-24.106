@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">PavlenkoPavlaPracitca7Pr-24.106</string>
+    <string name="help">Помощь</string>
+    <string name="Registration">Регистрация</string>
+    <string name="Login">Вход</string>
+    <string name="name">Введите ваше имя</string>
+    <string name="surname">Введите вашу фамилию</string>
+    <string name="phone">Введите ваш  номер</string>
+    <string name="registbutton">Зарегистрироваться</string>
+    <string name="checkbox">Согласен(-а) с условиями использования и политики конфиденциальности</string>
 </resources>
