@@ -5,4 +5,8 @@
     <color name="primary">#008080</color>
     <color name="secondary">#006400</color>
     <color name="buttonbackground">#228B22</color>
+    <color name="nightprimary">#20B2AA</color>
+    <color name="nightsecondary">#2E8B57</color>
+    <color name="buttonbackgroundnight">#3CB371</color>
+
 </resources>
