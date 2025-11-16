@@ -55,6 +55,15 @@
         tools:layout_editor_absoluteY="84dp" />
 
     <TextView
+        android:id="@+id/textView6"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
+        android:layout_width="136dp"
+        android:layout_height="28dp"
+        android:text="@string/offerings"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <TextView
         android:id="@+id/textView5"
         style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
         android:layout_width="397dp"
@@ -86,5 +95,38 @@
         app:srcCompat="@drawable/_e21b10da3aacd78f07a135dbc518e5651242662"
         tools:layout_editor_absoluteX="283dp"
         tools:layout_editor_absoluteY="166dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/buttonbackground"
+        android:text="@string/click"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/buttonbackground"
+        android:text="@string/click"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/buttonbackground"
+        android:text="@string/click"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="271dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

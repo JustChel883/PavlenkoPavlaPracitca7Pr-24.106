@@ -10,4 +10,6 @@
     <string name="checkbox">Согласен(-а) с условиями использования и политики конфиденциальности</string>
     <string name="ivan">Иван,</string>
     <string name="welcome">Приветствуем в нашем приложении</string>
+    <string name="click">Клик</string>
+    <string name="offerings">Предложения</string>
 </resources>
