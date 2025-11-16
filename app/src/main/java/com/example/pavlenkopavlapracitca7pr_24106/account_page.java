@@ -1,7 +1,9 @@
 package com.example.pavlenkopavlapracitca7pr_24106;
 
+import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import androidx.activity.EdgeToEdge;
@@ -54,5 +56,10 @@ public class account_page extends AppCompatActivity {
                 selectedRadioButton.setButtonTintList(colorStateList);
             }
         });
+    }
+
+    public void onButtonClick(View view) {
+        Intent intent = new Intent(this, listof.class);
+        startActivity(intent);
     }
 }

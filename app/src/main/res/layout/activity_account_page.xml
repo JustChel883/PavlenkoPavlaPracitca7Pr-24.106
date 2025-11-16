@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".account_page">
 
-    <!-- Верхняя строка: аватар, поле ввода, иконки -->
+
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="41dp"
@@ -55,7 +55,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/_154b2e72ae44fa9ad8055ed0b97e75150f627af" />
 
-    <!-- Имя пользователя -->
+
     <TextView
         android:id="@+id/textView4"
         style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
@@ -68,7 +68,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
-    <!-- Приветствие -->
+
     <TextView
         android:id="@+id/textView5"
         style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
@@ -82,7 +82,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-    <!-- Первая строка изображений -->
+
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="112dp"
@@ -115,7 +115,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:srcCompat="@drawable/_e21b10da3aacd78f07a135dbc518e5651242662" />
 
-    <!-- Кнопки под первой строкой изображений -->
+
     <Button
         android:id="@+id/button2"
         style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
@@ -126,6 +126,7 @@
         android:backgroundTint="@color/buttonbackground"
         android:text="@string/click"
         android:textAlignment="center"
+        android:onClick="onButtonClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
@@ -137,6 +138,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:backgroundTint="@color/buttonbackground"
+        android:onClick="onButtonClick"
         android:text="@string/click"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@+id/button2"
@@ -151,13 +153,14 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/buttonbackground"
+        android:onClick="onButtonClick"
         android:text="@string/click"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button5"
         app:layout_constraintTop_toBottomOf="@+id/imageView11" />
 
-    <!-- Заголовок предложений -->
+
     <TextView
         android:id="@+id/textView6"
         style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
@@ -171,7 +174,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
-    <!-- Вторая строка изображений -->
+
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="112dp"
@@ -182,7 +185,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:srcCompat="@drawable/_431aedcf99e966d5062f2d725af74ec05e95f9a" />
 
-    <!-- RadioGroup с городами -->
+
 
     <ImageView
         android:id="@+id/imageView13"
@@ -249,7 +252,7 @@
             android:text="@string/vlad" />
     </RadioGroup>
 
-    <!-- Нижняя часть: логотип и информация -->
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="89dp"

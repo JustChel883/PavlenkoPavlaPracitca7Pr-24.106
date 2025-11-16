@@ -13,5 +13,11 @@
 
     </style>
 
+    <style name="RoundedCorners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
     <style name="Theme.PavlenkoPavlaPracitca7Pr24106" parent="Base.Theme.PavlenkoPavlaPracitca7Pr24106" />
 </resources>
+
