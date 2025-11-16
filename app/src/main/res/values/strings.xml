@@ -12,4 +12,9 @@
     <string name="welcome">Приветствуем в нашем приложении</string>
     <string name="click">Клик</string>
     <string name="offerings">Предложения</string>
+    <string name="moskow">Москва</string>
+    <string name="saint">Санкт-Петербург</string>
+    <string name="nowosib">Новосибирск</string>
+    <string name="vlad">Владивосток</string>
+    <string name="info">Подробная информация</string>
 </resources>

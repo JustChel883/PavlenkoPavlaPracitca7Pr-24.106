@@ -7,126 +7,272 @@
     android:layout_height="match_parent"
     tools:context=".account_page">
 
+    <!-- Верхняя строка: аватар, поле ввода, иконки -->
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="41dp"
         android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/rounded_corners"
         android:clipToOutline="true"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/_0d0e47e77daec40d3be8f21744d54bdd8070e49"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_0d0e47e77daec40d3be8f21744d54bdd8070e49" />
 
     <EditText
         android:id="@+id/editTextText"
         style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
-        android:layout_width="240dp"
+        android:layout_width="0dp"
         android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
         android:ems="10"
         android:inputType="text"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="17dp" />
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="41dp"
         android:layout_height="36dp"
-        app:srcCompat="@drawable/b122a7c6c0cb0b43808c47db7af97fcff61f072a"
-        tools:layout_editor_absoluteX="313dp"
-        tools:layout_editor_absoluteY="4dp" />
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/b122a7c6c0cb0b43808c47db7af97fcff61f072a" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="41dp"
         android:layout_height="36dp"
-        app:srcCompat="@drawable/_154b2e72ae44fa9ad8055ed0b97e75150f627af"
-        tools:layout_editor_absoluteX="363dp"
-        tools:layout_editor_absoluteY="4dp" />
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_154b2e72ae44fa9ad8055ed0b97e75150f627af" />
 
+    <!-- Имя пользователя -->
     <TextView
         android:id="@+id/textView4"
         style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
-        android:layout_width="66dp"
-        android:layout_height="21dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/ivan"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="84dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
-    <TextView
-        android:id="@+id/textView6"
-        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
-        android:layout_width="136dp"
-        android:layout_height="28dp"
-        android:text="@string/offerings"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="330dp" />
-
+    <!-- Приветствие -->
     <TextView
         android:id="@+id/textView5"
         style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
-        android:layout_width="397dp"
-        android:layout_height="33dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:text="@string/welcome"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="114dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
+    <!-- Первая строка изображений -->
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="112dp"
         android:layout_height="95dp"
-        app:srcCompat="@drawable/b106779eadbe0bcffa30e3e1fc3fd005dddb9bd4"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="166dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/b106779eadbe0bcffa30e3e1fc3fd005dddb9bd4" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="112dp"
         android:layout_height="95dp"
-        app:srcCompat="@drawable/b0b33dd35f2ea4bbbd2b39f7691fe02187d9200a"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="166dp" />
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/b0b33dd35f2ea4bbbd2b39f7691fe02187d9200a" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="112dp"
         android:layout_height="95dp"
-        app:srcCompat="@drawable/_e21b10da3aacd78f07a135dbc518e5651242662"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="166dp" />
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/_e21b10da3aacd78f07a135dbc518e5651242662" />
 
+    <!-- Кнопки под первой строкой изображений -->
     <Button
         android:id="@+id/button2"
         style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
         android:layout_width="112dp"
         android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="@color/buttonbackground"
         android:text="@string/click"
         android:textAlignment="center"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="271dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
     <Button
         android:id="@+id/button5"
         style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
         android:layout_width="112dp"
         android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="@color/buttonbackground"
         android:text="@string/click"
         android:textAlignment="center"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="271dp" />
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <Button
         android:id="@+id/button6"
         style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
         android:layout_width="112dp"
         android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="@color/buttonbackground"
         android:text="@string/click"
         android:textAlignment="center"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="271dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <!-- Заголовок предложений -->
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/offerings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <!-- Вторая строка изображений -->
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="112dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/_431aedcf99e966d5062f2d725af74ec05e95f9a" />
+
+    <!-- RadioGroup с городами -->
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="112dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/_25fb1eaa01ba99e9fca7bd80a0673b6506f7eee" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="112dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/_41dd54c8666d035f74f4c86d706027797ebf927" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moskow" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/saint" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nowosib" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vlad" />
+    </RadioGroup>
+
+    <!-- Нижняя часть: логотип и информация -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="89dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:srcCompat="@drawable/c8e84e229f890df3fca4fec671358c0f78710215" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

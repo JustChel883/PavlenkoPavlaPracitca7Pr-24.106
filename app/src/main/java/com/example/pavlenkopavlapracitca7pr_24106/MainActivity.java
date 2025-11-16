@@ -47,4 +47,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, account_page.class);
         startActivity(intent);
     }
+
+
 }

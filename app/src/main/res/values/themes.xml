@@ -9,7 +9,7 @@
         <item name="colorButtonNormal">@color/buttonbackground</item>
         <item name="android:colorBackground">@color/primary</item>
         <item name="android:textColor">@color/secondary</item>
-        <!-- Цвета для чекбокса -->
+
 
     </style>
 
