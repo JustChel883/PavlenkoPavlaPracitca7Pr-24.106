@@ -4,5 +4,11 @@
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
         <item name="android:fontFamily">@font/deltablockregular</item>
+        <item name="colorPrimary">@color/nightprimary</item>
+        <item name="colorSecondary">@color/nightsecondary</item>
+        <item name="colorButtonNormal">@color/buttonbackgroundnight</item>
+        <item name="android:colorBackground">@color/nightprimary</item>
+        <item name="android:textColor">@color/nightsecondary</item>
+
     </style>
 </resources>

@@ -5,7 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#008080"
     tools:context=".MainActivity">
 
 
@@ -33,11 +32,11 @@
 
     <TextView
         android:id="@+id/textView"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/Registration"
-        android:textColor="@color/secondary"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
@@ -54,15 +53,18 @@
         android:layout_marginTop="16dp"
         app:srcCompat="@drawable/_154b2e72ae44fa9ad8055ed0b97e75150f627af" />
 
+
     <TextView
         android:id="@+id/textView2"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
         android:text="@string/help"
-        android:textColor="@color/secondary"
-        tools:layout_editor_absoluteX="239dp"
-        tools:layout_editor_absoluteY="76dp" />
-
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -75,11 +77,11 @@
 
     <TextView
         android:id="@+id/textView3"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/Login"
-        android:textColor="@color/secondary"
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="@+id/imageView6" />
@@ -87,6 +89,7 @@
 
     <EditText
         android:id="@+id/editTextText2"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginStart="32dp"
@@ -95,13 +98,13 @@
         android:ems="10"
         android:inputType="text"
         android:text="@string/name"
-        android:textColor="@color/secondary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
         android:id="@+id/editTextText3"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
         android:layout_width="0dp"
         android:layout_height="51dp"
         android:layout_marginStart="32dp"
@@ -109,14 +112,14 @@
         android:layout_marginEnd="32dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/phone"
-        android:textColor="@color/secondary"
+        android:text="@string/surname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
 
     <EditText
         android:id="@+id/editTextPhone3"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginStart="32dp"
@@ -124,30 +127,30 @@
         android:layout_marginEnd="32dp"
         android:ems="10"
         android:inputType="phone"
-        android:text="@string/name"
-        android:textColor="@color/secondary"
+        android:text="@string/phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
 
-    <!-- Кнопка -->
+
     <Button
         android:id="@+id/button"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
         android:layout_width="0dp"
         android:layout_height="54dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="@color/buttonbackground"
-        android:text="@string/phone"
-        android:textColor="@color/secondary"
+        android:text="@string/registbutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPhone3" />
 
-    <!-- CheckBox -->
+
     <CheckBox
         android:id="@+id/checkBox"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -155,7 +158,6 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
         android:text="@string/checkbox"
-        android:textColor="@color/secondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
