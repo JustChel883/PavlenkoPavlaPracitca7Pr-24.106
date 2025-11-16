@@ -7,4 +7,84 @@
     android:layout_height="match_parent"
     tools:context=".account_page">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:background="@drawable/rounded_corners"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/_0d0e47e77daec40d3be8f21744d54bdd8070e49"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
+        android:layout_width="240dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/b122a7c6c0cb0b43808c47db7af97fcff61f072a"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/_154b2e72ae44fa9ad8055ed0b97e75150f627af"
+        tools:layout_editor_absoluteX="363dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
+        android:layout_width="66dp"
+        android:layout_height="21dp"
+        android:text="@string/ivan"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/Base.Theme.PavlenkoPavlaPracitca7Pr24106"
+        android:layout_width="397dp"
+        android:layout_height="33dp"
+        android:text="@string/welcome"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="112dp"
+        android:layout_height="95dp"
+        app:srcCompat="@drawable/b106779eadbe0bcffa30e3e1fc3fd005dddb9bd4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="112dp"
+        android:layout_height="95dp"
+        app:srcCompat="@drawable/b0b33dd35f2ea4bbbd2b39f7691fe02187d9200a"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="112dp"
+        android:layout_height="95dp"
+        app:srcCompat="@drawable/_e21b10da3aacd78f07a135dbc518e5651242662"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="166dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
