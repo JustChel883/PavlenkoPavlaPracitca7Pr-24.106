@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- Строка 1: Robert Fox -->
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
@@ -54,7 +54,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <!-- Строка 2: Ralph Edwards -->
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
@@ -88,7 +88,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <!-- Строка 3: Cameron Williamson -->
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
@@ -121,7 +121,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <!-- Строка 4: Leslie Alexander -->
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
@@ -155,7 +155,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <!-- Строка 5: Brooklyn Simmons -->
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
@@ -189,7 +189,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <!-- Строка 6: Jacob Jones -->
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
@@ -223,7 +223,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <!-- Строка 7: Kristin Watson -->
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
@@ -256,7 +256,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <!-- Строка 8: Marvin McKinney -->
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
