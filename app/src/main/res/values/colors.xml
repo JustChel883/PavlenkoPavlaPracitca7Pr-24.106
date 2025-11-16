@@ -8,6 +8,7 @@
     <color name="nightprimary">#20B2AA</color>
     <color name="nightsecondary">#2E8B57</color>
     <color name="buttonbackgroundnight">#3CB371</color>
+    <color name="primary_light">#00A0A0</color>
 
 
 </resources>
